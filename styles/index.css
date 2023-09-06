@@ -23,19 +23,47 @@
     margin: 10px;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.first_card {
+.card_first {
     align-items:end;
 }
-.second_card {
+.card_second {
     align-items: center;
     justify-content: center;
 }
-.second_card>.box {
+.card_second>.box {
     width: 78px;
     height: 120px;
     flex-shrink: 0;
 }
-.third_card {
+.card_third {
     align-items: center;
     justify-content: end;
+}
+.card_fourth {
+    justify-content:space-between;
+}
+.down {
+    align-self: flex-end; 
+}
+.card_fifth {
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.tall {
+    align-self: ;
+    height: 120px;
+}
+.card_sixth {
+    align-items: center;
+    justify-content: center;
+}
+.long {
+    flex-grow: 2;
 }
