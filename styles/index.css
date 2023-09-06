@@ -1,6 +1,8 @@
 .container {
     background-color: #370617;
     display: flex;
+    max-width: 1152px;
+    flex-wrap: wrap;
 }
 .card {
     background-color: #F48C06;
